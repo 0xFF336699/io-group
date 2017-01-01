@@ -19,9 +19,7 @@ npm install io-group
 // 队列依赖例子
 ```javascript
 var Group = require('io-group').QueueGroup;
-```javascript
 var ConcurrentGroup = require('io-group').ConcurrentGroup;
-```javascript
 exports.testRun = testRun;
 /**
  *  队列测试
