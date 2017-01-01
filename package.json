@@ -1,6 +1,6 @@
 {
   "name": "io-group",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "io group queue",
   "main": "index.js",
   "scripts": {
