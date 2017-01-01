@@ -468,6 +468,7 @@ function test()
 
 }
 ----------------------
+`
 //并发无依赖例子
 var Group = require('io-group').QueueGroup;
 var ConcurrentGroup = require('io-group').ConcurrentGroup;
@@ -643,3 +644,4 @@ function test()
     // testGotoError();
     // testRunWithQueueGroup();
 }
+`
