@@ -1,3 +1,4 @@
+//并发无依赖例子
 var Group = require('io-group').QueueGroup;
 var ConcurrentGroup = require('io-group').ConcurrentGroup;
 exports.testRun = testRun;
