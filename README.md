@@ -17,9 +17,12 @@ npm install io-group
 发车
 
 // 队列依赖例子
-```var Group = require('io-group').QueueGroup;
-```var ConcurrentGroup = require('io-group').ConcurrentGroup;
-```exports.testRun = testRun;
+```javascript
+var Group = require('io-group').QueueGroup;
+```javascript
+var ConcurrentGroup = require('io-group').ConcurrentGroup;
+```javascript
+exports.testRun = testRun;
 /**
  *  队列测试
  *  生成3个异步方法模拟，它们会被依次调用，如果出现错误会跳出，没有错误就会完成后调用complete
